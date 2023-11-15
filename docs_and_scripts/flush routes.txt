@@ -1,0 +1,5 @@
+
+Route -n
+
+Ip route flush 10.12…
+

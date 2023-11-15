@@ -1,0 +1,444 @@
+12:44:41.096449 IP 10.12.5.11 > 224.0.0.251: igmp v2 report 224.0.0.251
+12:44:42.505778 ARP, Request who-has 10.12.19.23 (08:00:27:d1:82:df) tell 10.12.5.11, length 46
+12:44:42.505808 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [S], seq 1689158782, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060080 ecr 0,sackOK,eol], length 0
+12:44:42.506453 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [.], ack 980250850, win 4117, options [nop,nop,TS val 271060080 ecr 3510070900], length 0
+12:44:42.506749 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [P.], seq 0:325, ack 1, win 4117, options [nop,nop,TS val 271060081 ecr 3510070900], length 325: HTTP: GET / HTTP/1.1
+12:44:42.507405 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [.], ack 1287, win 4077, options [nop,nop,TS val 271060081 ecr 3510070901], length 0
+12:44:42.548231 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [P.], seq 325:643, ack 1287, win 4096, options [nop,nop,TS val 271060122 ecr 3510070901], length 318: HTTP: GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1
+12:44:42.551376 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [F.], seq 643, ack 1287, win 4096, options [nop,nop,TS val 271060123 ecr 3510070901], length 0
+12:44:42.551400 IP 10.12.5.11.57716 > 10.12.19.23.80: Flags [S], seq 15736757, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060123 ecr 0,sackOK,eol], length 0
+12:44:42.551441 IP 10.12.5.11.57717 > 10.12.19.23.80: Flags [S], seq 1961516270, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060123 ecr 0,sackOK,eol], length 0
+12:44:42.551454 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [SEW], seq 1966039846, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060123 ecr 0,sackOK,eol], length 0
+12:44:42.551463 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [S], seq 1146674365, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060123 ecr 0,sackOK,eol], length 0
+12:44:42.551471 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [SEW], seq 962163409, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060124 ecr 0,sackOK,eol], length 0
+12:44:42.551480 IP 10.12.5.11.57721 > 10.12.19.23.80: Flags [SEW], seq 2586416935, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060124 ecr 0,sackOK,eol], length 0
+12:44:42.554957 IP 10.12.5.11.57716 > 10.12.19.23.80: Flags [R], seq 15736758, win 0, length 0
+12:44:42.554981 IP 10.12.5.11.57717 > 10.12.19.23.80: Flags [R], seq 1961516271, win 0, length 0
+12:44:42.554984 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [.], ack 3496854611, win 4117, options [nop,nop,TS val 271060125 ecr 3510070945], length 0
+12:44:42.554987 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [.], ack 85612646, win 4117, options [nop,nop,TS val 271060125 ecr 3510070945], length 0
+12:44:42.554989 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [.], ack 3398489658, win 4117, options [nop,nop,TS val 271060125 ecr 3510070946], length 0
+12:44:42.554990 IP 10.12.5.11.57721 > 10.12.19.23.80: Flags [.], ack 2374874826, win 4117, options [nop,nop,TS val 271060125 ecr 3510070946], length 0
+12:44:42.554992 IP 10.12.5.11.57721 > 10.12.19.23.80: Flags [P.], seq 0:275, ack 1, win 4117, options [nop,nop,TS val 271060125 ecr 3510070946], length 275: HTTP: GET /js/main.js HTTP/1.1
+12:44:42.555098 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [P.], seq 0:301, ack 1, win 4117, options [nop,nop,TS val 271060125 ecr 3510070946], length 301: HTTP: GET /vendor/daterangepicker/moment.min.js HTTP/1.1
+12:44:42.555114 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [P.], seq 0:294, ack 1, win 4117, options [nop,nop,TS val 271060125 ecr 3510070945], length 294: HTTP: GET /vendor/select2/select2.min.js HTTP/1.1
+12:44:42.555126 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [P.], seq 0:301, ack 1, win 4117, options [nop,nop,TS val 271060125 ecr 3510070945], length 301: HTTP: GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1
+12:44:42.555137 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [F.], seq 301, ack 1, win 4117, options [nop,nop,TS val 271060126 ecr 3510070945], length 0
+12:44:42.555140 IP 10.12.5.11.57722 > 10.12.19.23.80: Flags [S], seq 1617463195, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060126 ecr 0,sackOK,eol], length 0
+12:44:42.556777 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.558110 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.558127 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.559005 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.559023 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.559025 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.559026 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.559027 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.559029 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.559030 IP 10.12.5.11.57715 > 10.12.19.23.80: Flags [R], seq 1689159427, win 0, length 0
+12:44:42.559031 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [F.], seq 294, ack 1, win 4117, options [nop,nop,TS val 271060128 ecr 3510070945], length 0
+12:44:42.559037 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [F.], seq 301, ack 1, win 4117, options [nop,nop,TS val 271060128 ecr 3510070946], length 0
+12:44:42.559044 IP 10.12.5.11.57721 > 10.12.19.23.80: Flags [F.], seq 275, ack 1, win 4117, options [nop,nop,TS val 271060128 ecr 3510070946], length 0
+12:44:42.559046 IP 10.12.5.11.57722 > 10.12.19.23.80: Flags [R], seq 1617463196, win 0, length 0
+12:44:42.559050 IP 10.12.5.11.57721 > 10.12.19.23.80: Flags [R], seq 2586417211, win 0, length 0
+12:44:42.559053 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559056 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559058 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559059 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559075 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559078 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559079 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559080 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559082 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.559083 IP 10.12.5.11.57720 > 10.12.19.23.80: Flags [R], seq 962163711, win 0, length 0
+12:44:42.563421 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563441 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563447 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563448 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563460 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563462 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563464 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563465 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563538 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563542 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563543 IP 10.12.5.11.57718 > 10.12.19.23.80: Flags [R], seq 1966040149, win 0, length 0
+12:44:42.563544 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563549 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563550 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563552 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563553 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563554 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563555 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563557 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563558 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.563559 IP 10.12.5.11.57719 > 10.12.19.23.80: Flags [R], seq 1146674661, win 0, length 0
+12:44:42.574304 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [SEW], seq 2500139036, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060145 ecr 0,sackOK,eol], length 0
+12:44:42.574505 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 203240041, win 4117, options [nop,nop,TS val 271060145 ecr 3510070968], length 0
+12:44:42.575100 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [P.], seq 0:281, ack 1, win 4117, options [nop,nop,TS val 271060145 ecr 3510070968], length 281: HTTP: GET /images/bg-01.jpg HTTP/1.1
+12:44:42.575697 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 2897, win 4027, options [nop,nop,TS val 271060146 ecr 3510070969], length 0
+12:44:42.575720 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 5793, win 3936, options [nop,nop,TS val 271060146 ecr 3510070969], length 0
+12:44:42.576385 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 8689, win 3846, options [nop,nop,TS val 271060146 ecr 3510070969], length 0
+12:44:42.576420 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 11585, win 3755, options [nop,nop,TS val 271060146 ecr 3510070970], length 0
+12:44:42.576445 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 14481, win 3665, options [nop,nop,TS val 271060146 ecr 3510070970], length 0
+12:44:42.576447 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 14481, win 4096, options [nop,nop,TS val 271060146 ecr 3510070970], length 0
+12:44:42.576612 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 17377, win 4005, options [nop,nop,TS val 271060147 ecr 3510070970], length 0
+12:44:42.576619 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 20273, win 3915, options [nop,nop,TS val 271060147 ecr 3510070970], length 0
+12:44:42.576633 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 23169, win 3824, options [nop,nop,TS val 271060147 ecr 3510070970], length 0
+12:44:42.576636 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 26065, win 3734, options [nop,nop,TS val 271060147 ecr 3510070970], length 0
+12:44:42.576926 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 28961, win 3643, options [nop,nop,TS val 271060147 ecr 3510070970], length 0
+12:44:42.576940 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 31857, win 3553, options [nop,nop,TS val 271060147 ecr 3510070970], length 0
+12:44:42.576942 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 34753, win 3462, options [nop,nop,TS val 271060147 ecr 3510070970], length 0
+12:44:42.576962 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 34753, win 4096, options [nop,nop,TS val 271060147 ecr 3510070970], length 0
+12:44:42.577113 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 37649, win 4005, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577120 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 40545, win 3915, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577122 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 43441, win 3824, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577138 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 46337, win 3734, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577140 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 49233, win 3643, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577317 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 52129, win 3553, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577323 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 55025, win 3462, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577344 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 57921, win 3372, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577356 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 57921, win 4096, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577551 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 60817, win 4005, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577558 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 63713, win 3915, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577560 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 66609, win 3824, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577575 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 69505, win 3734, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577579 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 72401, win 3643, options [nop,nop,TS val 271060147 ecr 3510070971], length 0
+12:44:42.577581 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 73849, win 4096, options [nop,nop,TS val 271060148 ecr 3510070971], length 0
+12:44:42.577757 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 76745, win 4005, options [nop,nop,TS val 271060148 ecr 3510070971], length 0
+12:44:42.577784 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 79641, win 3915, options [nop,nop,TS val 271060148 ecr 3510070971], length 0
+12:44:42.577787 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 82537, win 3824, options [nop,nop,TS val 271060148 ecr 3510070971], length 0
+12:44:42.577929 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 85433, win 3734, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.577935 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 88329, win 3643, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.577937 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 91225, win 3553, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.577952 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 92673, win 4096, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578083 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 95569, win 4005, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578099 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 98465, win 3915, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578102 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 101361, win 3824, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578105 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 104257, win 3734, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578107 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 107153, win 3643, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578173 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 110049, win 3553, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578177 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 112945, win 3462, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578184 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 115841, win 3372, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578186 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 118737, win 3281, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578195 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 118737, win 4096, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578297 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 121633, win 4005, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578337 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 124529, win 3915, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578341 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 127425, win 3824, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578343 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 130321, win 3734, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578355 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 133217, win 3643, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578359 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 136113, win 3553, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578361 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 139009, win 3462, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578363 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 141905, win 3372, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578373 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 144801, win 3281, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578505 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 147697, win 3191, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578513 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 150593, win 3100, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578515 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 153489, win 3010, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578531 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 156385, win 2919, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578534 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 159281, win 2829, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578536 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 162177, win 2738, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578537 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 165073, win 3643, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578547 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 167969, win 3553, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578550 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 170865, win 3462, options [nop,nop,TS val 271060148 ecr 3510070972], length 0
+12:44:42.578724 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 173761, win 3400, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578733 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 176657, win 3310, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578735 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 179553, win 3219, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578737 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 182449, win 3129, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578754 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 185345, win 3038, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578757 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 188241, win 2948, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578759 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 191137, win 2857, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578760 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 194033, win 2767, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578768 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 196929, win 2676, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578781 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 199825, win 2586, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578826 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 202721, win 2495, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578843 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 205617, win 2405, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578845 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 208513, win 2314, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578847 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 211409, win 2224, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578848 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 212857, win 2178, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578855 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 215753, win 2088, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578858 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 218649, win 1997, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578859 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 221545, win 1907, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578861 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 224441, win 1816, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578929 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 227337, win 1726, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578933 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 230233, win 1635, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578935 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 233129, win 1545, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578937 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 236025, win 1454, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578939 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 238921, win 1364, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578941 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 241817, win 1273, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578942 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 244713, win 1183, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578943 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 247609, win 1092, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578945 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 250505, win 1002, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.578946 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 252004, win 955, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.579009 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 252004, win 1979, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.579075 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 252004, win 3003, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.579131 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 252004, win 4027, options [nop,nop,TS val 271060149 ecr 3510070973], length 0
+12:44:42.612617 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [P.], seq 281:716, ack 252004, win 4096, options [nop,nop,TS val 271060182 ecr 3510070973], length 435: HTTP: GET /fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1
+12:44:42.613166 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 254900, win 4005, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613183 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 257796, win 3915, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613185 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 260692, win 3824, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613187 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 263588, win 3734, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613205 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 266484, win 3643, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613208 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 269380, win 3553, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613211 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 272276, win 3462, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613212 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 275172, win 3372, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613214 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 278068, win 3281, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613215 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 280964, win 3191, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613216 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 283860, win 3100, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613218 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 286756, win 3010, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613439 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 289652, win 2919, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613452 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 290650, win 3883, options [nop,nop,TS val 271060182 ecr 3510071007], length 0
+12:44:42.613527 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 290650, win 4096, options [nop,nop,TS val 271060183 ecr 3510071007], length 0
+12:44:42.613619 IP 10.12.5.11.57724 > 10.12.19.23.80: Flags [SEW], seq 2141178424, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060183 ecr 0,sackOK,eol], length 0
+12:44:42.613774 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [SEW], seq 623853408, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271060183 ecr 0,sackOK,eol], length 0
+12:44:42.613793 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [P.], seq 716:1088, ack 290650, win 4096, options [nop,nop,TS val 271060183 ecr 3510071007], length 372: HTTP: GET /fonts/poppins/Poppins-Medium.ttf HTTP/1.1
+12:44:42.614114 IP 10.12.5.11.57724 > 10.12.19.23.80: Flags [.], ack 1823154071, win 4117, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614235 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 1944227295, win 4117, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614240 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 293546, win 4005, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614242 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 296442, win 3915, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614243 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 299338, win 3824, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614244 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 302234, win 3734, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614245 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 305130, win 3643, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614247 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 308026, win 3553, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614363 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 310922, win 3462, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614383 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 313818, win 3372, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614385 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 316714, win 3281, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614386 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 319610, win 3191, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614388 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 322506, win 3100, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614389 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 325402, win 3010, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614390 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 328298, win 2919, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614391 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 331194, win 2829, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614392 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 334090, win 2738, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614393 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 336986, win 2648, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614395 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 339882, win 2557, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614397 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 342778, win 2467, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614398 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 345674, win 2376, options [nop,nop,TS val 271060183 ecr 3510071008], length 0
+12:44:42.614952 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 345674, win 3400, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.614965 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 345674, win 4096, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.614968 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [P.], seq 0:373, ack 1, win 4117, options [nop,nop,TS val 271060184 ecr 3510071008], length 373: HTTP: GET /fonts/poppins/Poppins-Regular.ttf HTTP/1.1
+12:44:42.615014 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 348570, win 4005, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615031 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 351466, win 3915, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615033 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 354362, win 3824, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615035 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 357258, win 3734, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615036 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 360154, win 3643, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615055 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 363050, win 3553, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615058 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 365946, win 3462, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615060 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 368842, win 3372, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615062 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 371738, win 3281, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615109 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 374634, win 3191, options [nop,nop,TS val 271060184 ecr 3510071008], length 0
+12:44:42.615117 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 377530, win 3100, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615119 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 380426, win 3010, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615121 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 383322, win 2919, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615184 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 386218, win 2829, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615223 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 389114, win 2738, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615233 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 392010, win 2648, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615241 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 394906, win 2557, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615248 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 397802, win 2467, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615250 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 400698, win 2376, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615252 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 403594, win 2286, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615264 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 406490, win 2195, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615266 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 409386, win 2105, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615268 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 410834, win 2059, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615269 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 413730, win 1969, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615271 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 416626, win 1878, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615272 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 419522, win 1788, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615274 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 422418, win 1697, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615305 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 425314, win 1607, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615322 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 425314, win 2631, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615337 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 428210, win 2540, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615340 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 431106, win 2450, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615342 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 434002, win 2359, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615344 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 434467, win 2345, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615524 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 434467, win 3369, options [nop,nop,TS val 271060184 ecr 3510071009], length 0
+12:44:42.615873 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 434467, win 4096, options [nop,nop,TS val 271060185 ecr 3510071009], length 0
+12:44:42.615955 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 2897, win 4027, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.615974 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 5793, win 3936, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616000 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 8689, win 3846, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616008 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 11585, win 3755, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616015 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 14481, win 3665, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616289 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 17377, win 3574, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616498 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 20273, win 3484, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616507 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 23169, win 3393, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616509 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 26065, win 3303, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616535 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 28961, win 3212, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616539 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 31857, win 3122, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616566 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 34753, win 3031, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616604 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 37649, win 2941, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616636 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 37649, win 3943, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616640 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 37649, win 4096, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616659 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 40545, win 4005, options [nop,nop,TS val 271060185 ecr 3510071010], length 0
+12:44:42.616678 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 43441, win 3915, options [nop,nop,TS val 271060185 ecr 3510071011], length 0
+12:44:42.616683 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 46337, win 3824, options [nop,nop,TS val 271060185 ecr 3510071011], length 0
+12:44:42.616686 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 49233, win 3734, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616689 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 52129, win 3643, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616692 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 55025, win 3553, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616695 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 57921, win 3462, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616793 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 57921, win 4096, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616908 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 60817, win 4005, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616913 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 63713, win 3915, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616915 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 66609, win 3824, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616952 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 69505, win 3734, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616957 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 72401, win 3643, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616959 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 75297, win 3553, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616967 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 78193, win 3462, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616969 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 79641, win 3417, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.616971 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 82537, win 3326, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617100 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 85433, win 3236, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617121 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 88329, win 3145, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617123 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 91225, win 3055, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617139 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 94121, win 2964, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617142 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 97017, win 2874, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617144 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 99913, win 2783, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617182 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 102809, win 2693, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617186 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 105705, win 2602, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617188 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 108601, win 2512, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617321 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 108601, win 3536, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617328 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 111497, win 3445, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617331 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 114393, win 3355, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617333 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 117289, win 3264, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617335 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 120185, win 3174, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617352 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 123081, win 3083, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617355 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 125977, win 2993, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617356 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 128873, win 2902, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617358 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 131769, win 2812, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617359 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 134665, win 2721, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617573 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 136113, win 3700, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617581 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 136113, win 4096, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617583 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 139009, win 4005, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617585 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 141905, win 3915, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617586 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 144801, win 3824, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617588 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 145615, win 3799, options [nop,nop,TS val 271060186 ecr 3510071011], length 0
+12:44:42.617930 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 145615, win 4096, options [nop,nop,TS val 271060187 ecr 3510071011], length 0
+12:44:42.623206 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [P.], seq 1088:1407, ack 434467, win 4096, options [nop,nop,TS val 271060192 ecr 3510071009], length 319: HTTP: GET /images/icons/favicon.ico HTTP/1.1
+12:44:42.623933 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 437363, win 4005, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623948 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 440259, win 3915, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623950 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 443155, win 3824, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623952 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 446051, win 3734, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623953 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 448947, win 3643, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623955 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 451843, win 3553, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623956 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 454739, win 3462, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623958 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 457635, win 3372, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623960 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 460531, win 3281, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623962 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 463427, win 3191, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623963 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 466323, win 3100, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.623965 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 466807, win 3085, options [nop,nop,TS val 271060192 ecr 3510071018], length 0
+12:44:42.624191 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 466807, win 4096, options [nop,nop,TS val 271060193 ecr 3510071018], length 0
+12:44:47.622423 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [.], ack 145616, win 4096, options [nop,nop,TS val 271065177 ecr 3510076016], length 0
+12:44:47.622693 IP 10.12.5.11.57725 > 10.12.19.23.80: Flags [F.], seq 373, ack 145616, win 4096, options [nop,nop,TS val 271065177 ecr 3510076016], length 0
+12:44:47.624007 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [.], ack 466808, win 4096, options [nop,nop,TS val 271065178 ecr 3510076018], length 0
+12:44:47.624342 IP 10.12.5.11.57723 > 10.12.19.23.80: Flags [F.], seq 1407, ack 466808, win 4096, options [nop,nop,TS val 271065178 ecr 3510076018], length 0
+12:44:48.513281 IP 10.12.5.11.57724 > 10.12.19.23.80: Flags [F.], seq 0, ack 1, win 4117, options [nop,nop,TS val 271066063 ecr 3510071008], length 0
+12:44:48.513603 IP 10.12.5.11.57724 > 10.12.19.23.80: Flags [.], ack 2, win 4117, options [nop,nop,TS val 271066063 ecr 3510076908], length 0
+12:44:55.285756 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [S], seq 3118557857, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271072813 ecr 0,sackOK,eol], length 0
+12:44:55.285979 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 2679654616, win 4117, options [nop,nop,TS val 271072813 ecr 3510083680], length 0
+12:44:55.286529 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [P.], seq 0:443, ack 1, win 4117, options [nop,nop,TS val 271072813 ecr 3510083680], length 443: HTTP: GET / HTTP/1.1
+12:44:55.287233 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 1287, win 4077, options [nop,nop,TS val 271072814 ecr 3510083681], length 0
+12:44:55.304316 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [P.], seq 443:880, ack 1287, win 4096, options [nop,nop,TS val 271072831 ecr 3510083681], length 437: HTTP: GET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1
+12:44:55.305168 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [S], seq 2611728074, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271072831 ecr 0,sackOK,eol], length 0
+12:44:55.305211 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [S], seq 386137274, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271072832 ecr 0,sackOK,eol], length 0
+12:44:55.305288 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [SEW], seq 1150410120, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271072832 ecr 0,sackOK,eol], length 0
+12:44:55.305478 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 3139469008, win 4117, options [nop,nop,TS val 271072832 ecr 3510083699], length 0
+12:44:55.305483 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 1733017870, win 4117, options [nop,nop,TS val 271072832 ecr 3510083699], length 0
+12:44:55.305485 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [SEW], seq 1989463601, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271072832 ecr 0,sackOK,eol], length 0
+12:44:55.305500 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [S], seq 2612493054, win 65535, options [mss 1460,nop,wscale 5,nop,nop,TS val 271072832 ecr 0,sackOK,eol], length 0
+12:44:55.305651 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 9552196, win 4117, options [nop,nop,TS val 271072832 ecr 3510083699], length 0
+12:44:55.305747 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 631459798, win 4117, options [nop,nop,TS val 271072832 ecr 3510083700], length 0
+12:44:55.305750 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 2112822043, win 4117, options [nop,nop,TS val 271072832 ecr 3510083700], length 0
+12:44:55.306020 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [P.], seq 0:424, ack 1, win 4117, options [nop,nop,TS val 271072832 ecr 3510083699], length 424: HTTP: GET /vendor/animate/animate.css HTTP/1.1
+12:44:55.306065 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [P.], seq 0:451, ack 1, win 4117, options [nop,nop,TS val 271072832 ecr 3510083699], length 451: HTTP: GET /fonts/iconic/css/material-design-iconic-font.min.css HTTP/1.1
+12:44:55.306078 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [P.], seq 0:447, ack 1, win 4117, options [nop,nop,TS val 271072832 ecr 3510083699], length 447: HTTP: GET /fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1
+12:44:55.306451 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [P.], seq 0:438, ack 1, win 4117, options [nop,nop,TS val 271072833 ecr 3510083700], length 438: HTTP: GET /vendor/animsition/css/animsition.min.css HTTP/1.1
+12:44:55.306501 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [P.], seq 0:438, ack 1, win 4117, options [nop,nop,TS val 271072833 ecr 3510083700], length 438: HTTP: GET /vendor/css-hamburgers/hamburgers.min.css HTTP/1.1
+12:44:55.307369 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 2897, win 4027, options [nop,nop,TS val 271072834 ecr 3510083701], length 0
+12:44:55.307379 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 3261, win 4015, options [nop,nop,TS val 271072834 ecr 3510083701], length 0
+12:44:55.307750 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [P.], seq 424:852, ack 3261, win 4096, options [nop,nop,TS val 271072834 ecr 3510083701], length 428: HTTP: GET /vendor/select2/select2.min.css HTTP/1.1
+12:44:55.308801 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 2897, win 4027, options [nop,nop,TS val 271072835 ecr 3510083703], length 0
+12:44:55.308810 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 5793, win 3936, options [nop,nop,TS val 271072835 ecr 3510083703], length 0
+12:44:55.308812 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 8344, win 3857, options [nop,nop,TS val 271072835 ecr 3510083703], length 0
+12:44:55.309143 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 8344, win 4096, options [nop,nop,TS val 271072835 ecr 3510083703], length 0
+12:44:55.309219 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [P.], seq 451:891, ack 8344, win 4096, options [nop,nop,TS val 271072835 ecr 3510083703], length 440: HTTP: GET /vendor/daterangepicker/daterangepicker.css HTTP/1.1
+12:44:55.310149 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 2897, win 4027, options [nop,nop,TS val 271072836 ecr 3510083704], length 0
+12:44:55.310163 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 5793, win 3936, options [nop,nop,TS val 271072836 ecr 3510083704], length 0
+12:44:55.310405 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 7392, win 3886, options [nop,nop,TS val 271072836 ecr 3510083704], length 0
+12:44:55.310415 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 7392, win 4096, options [nop,nop,TS val 271072836 ecr 3510083704], length 0
+12:44:55.310417 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [P.], seq 447:858, ack 7392, win 4096, options [nop,nop,TS val 271072836 ecr 3510083704], length 411: HTTP: GET /css/util.css HTTP/1.1
+12:44:55.311269 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 2461, win 4040, options [nop,nop,TS val 271072837 ecr 3510083705], length 0
+12:44:55.311548 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 2580, win 4037, options [nop,nop,TS val 271072837 ecr 3510083705], length 0
+12:44:55.311568 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [P.], seq 438:848, ack 2461, win 4096, options [nop,nop,TS val 271072837 ecr 3510083705], length 410: HTTP: GET /css/main.css HTTP/1.1
+12:44:55.312308 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [P.], seq 438:855, ack 2580, win 4096, options [nop,nop,TS val 271072838 ecr 3510083705], length 417: HTTP: GET /vendor/jquery/jquery-3.2.1.min.js HTTP/1.1
+12:44:55.312320 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 5585, win 4023, options [nop,nop,TS val 271072838 ecr 3510083706], length 0
+12:44:55.312324 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 10283, win 4035, options [nop,nop,TS val 271072838 ecr 3510083706], length 0
+12:44:55.314459 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [P.], seq 852:1273, ack 5585, win 4096, options [nop,nop,TS val 271072838 ecr 3510083706], length 421: HTTP: GET /vendor/animsition/js/animsition.min.js HTTP/1.1
+12:44:55.314486 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [P.], seq 891:1304, ack 10283, win 4096, options [nop,nop,TS val 271072838 ecr 3510083706], length 413: HTTP: GET /vendor/bootstrap/js/popper.js HTTP/1.1
+12:44:55.315065 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 10288, win 4005, options [nop,nop,TS val 271072840 ecr 3510083708], length 0
+12:44:55.315088 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 13184, win 3915, options [nop,nop,TS val 271072840 ecr 3510083708], length 0
+12:44:55.315090 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 16080, win 3824, options [nop,nop,TS val 271072840 ecr 3510083708], length 0
+12:44:55.315092 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 18976, win 3734, options [nop,nop,TS val 271072840 ecr 3510083708], length 0
+12:44:55.315094 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 20625, win 3682, options [nop,nop,TS val 271072840 ecr 3510083708], length 0
+12:44:55.315096 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 20625, win 4096, options [nop,nop,TS val 271072840 ecr 3510083708], length 0
+12:44:55.315098 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [P.], seq 858:1277, ack 20625, win 4096, options [nop,nop,TS val 271072840 ecr 3510083708], length 419: HTTP: GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1
+12:44:55.315532 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 4725, win 4025, options [nop,nop,TS val 271072840 ecr 3510083709], length 0
+12:44:55.315547 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [P.], seq 848:1261, ack 4725, win 4096, options [nop,nop,TS val 271072840 ecr 3510083709], length 413: HTTP: GET /vendor/select2/select2.min.js HTTP/1.1
+12:44:55.318821 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 7621, win 4005, options [nop,nop,TS val 271072843 ecr 3510083712], length 0
+12:44:55.318860 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 10517, win 3915, options [nop,nop,TS val 271072843 ecr 3510083712], length 0
+12:44:55.318863 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 11965, win 4096, options [nop,nop,TS val 271072843 ecr 3510083712], length 0
+12:44:55.318923 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 14861, win 4005, options [nop,nop,TS val 271072843 ecr 3510083712], length 0
+12:44:55.318932 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 17757, win 3915, options [nop,nop,TS val 271072843 ecr 3510083712], length 0
+12:44:55.319844 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 20653, win 3824, options [nop,nop,TS val 271072843 ecr 3510083712], length 0
+12:44:55.319863 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 23549, win 3734, options [nop,nop,TS val 271072843 ecr 3510083713], length 0
+12:44:55.319866 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 24101, win 3716, options [nop,nop,TS val 271072843 ecr 3510083713], length 0
+12:44:55.319868 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 24101, win 4096, options [nop,nop,TS val 271072844 ecr 3510083713], length 0
+12:44:55.319870 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [P.], seq 1261:1680, ack 24101, win 4096, options [nop,nop,TS val 271072844 ecr 3510083713], length 419: HTTP: GET /vendor/daterangepicker/moment.min.js HTTP/1.1
+12:44:55.320452 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 7912, win 4023, options [nop,nop,TS val 271072844 ecr 3510083713], length 0
+12:44:55.320596 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [P.], seq 1273:1698, ack 7912, win 4096, options [nop,nop,TS val 271072844 ecr 3510083713], length 425: HTTP: GET /vendor/daterangepicker/daterangepicker.js HTTP/1.1
+12:44:55.324404 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 13179, win 4005, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324428 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 16075, win 3915, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324441 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 18971, win 3824, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324444 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 21867, win 3734, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324446 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 24763, win 3643, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324447 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 27659, win 3553, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324613 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 30555, win 3462, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324617 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 31850, win 3422, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324825 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 31850, win 4096, options [nop,nop,TS val 271072848 ecr 3510083718], length 0
+12:44:55.324980 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [P.], seq 1304:1723, ack 31850, win 4096, options [nop,nop,TS val 271072848 ecr 3510083718], length 419: HTTP: GET /vendor/countdowntime/countdowntime.js HTTP/1.1
+12:44:55.325393 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 32682, win 4070, options [nop,nop,TS val 271072849 ecr 3510083719], length 0
+12:44:55.325925 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [P.], seq 1723:2115, ack 32682, win 4096, options [nop,nop,TS val 271072849 ecr 3510083719], length 392: HTTP: GET /js/main.js HTTP/1.1
+12:44:55.326531 IP 10.12.5.11.57728 > 10.12.19.23.80: Flags [.], ack 33702, win 4064, options [nop,nop,TS val 271072850 ecr 3510083720], length 0
+12:44:55.328630 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 4183, win 4005, options [nop,nop,TS val 271072852 ecr 3510083722], length 0
+12:44:55.328653 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 7079, win 3915, options [nop,nop,TS val 271072852 ecr 3510083722], length 0
+12:44:55.328656 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 9975, win 3824, options [nop,nop,TS val 271072852 ecr 3510083722], length 0
+12:44:55.328658 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 12871, win 3734, options [nop,nop,TS val 271072852 ecr 3510083722], length 0
+12:44:55.328659 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 15767, win 3643, options [nop,nop,TS val 271072852 ecr 3510083722], length 0
+12:44:55.328826 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 18663, win 3553, options [nop,nop,TS val 271072852 ecr 3510083723], length 0
+12:44:55.328830 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 20233, win 3503, options [nop,nop,TS val 271072852 ecr 3510083723], length 0
+12:44:55.328968 IP 10.12.5.11.57726 > 10.12.19.23.80: Flags [.], ack 20233, win 4096, options [nop,nop,TS val 271072852 ecr 3510083723], length 0
+12:44:55.332277 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 10808, win 4005, options [nop,nop,TS val 271072855 ecr 3510083725], length 0
+12:44:55.332306 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 13704, win 3915, options [nop,nop,TS val 271072855 ecr 3510083725], length 0
+12:44:55.332308 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 16600, win 3824, options [nop,nop,TS val 271072855 ecr 3510083725], length 0
+12:44:55.332311 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 19496, win 3734, options [nop,nop,TS val 271072855 ecr 3510083725], length 0
+12:44:55.332314 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 20310, win 3708, options [nop,nop,TS val 271072855 ecr 3510083725], length 0
+12:44:55.333114 IP 10.12.5.11.57729 > 10.12.19.23.80: Flags [.], ack 20310, win 4096, options [nop,nop,TS val 271072855 ecr 3510083725], length 0
+12:44:55.334833 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 26997, win 4005, options [nop,nop,TS val 271072855 ecr 3510083727], length 0
+12:44:55.334884 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 29893, win 3915, options [nop,nop,TS val 271072856 ecr 3510083727], length 0
+12:44:55.334888 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 32789, win 3824, options [nop,nop,TS val 271072856 ecr 3510083727], length 0
+12:44:55.334889 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 35685, win 3734, options [nop,nop,TS val 271072856 ecr 3510083727], length 0
+12:44:55.334891 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 37133, win 4096, options [nop,nop,TS val 271072856 ecr 3510083727], length 0
+12:44:55.334893 IP 10.12.5.11.57730 > 10.12.19.23.80: Flags [.], ack 39718, win 4015, options [nop,nop,TS val 271072857 ecr 3510083727], length 0
+12:44:55.335686 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 23521, win 4005, options [nop,nop,TS val 271072857 ecr 3510083729], length 0
+12:44:55.335704 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 26417, win 3915, options [nop,nop,TS val 271072857 ecr 3510083729], length 0
+12:44:55.335706 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 29313, win 3824, options [nop,nop,TS val 271072857 ecr 3510083729], length 0
+12:44:55.335707 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 32209, win 3734, options [nop,nop,TS val 271072857 ecr 3510083729], length 0
+12:44:55.335709 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 33957, win 3679, options [nop,nop,TS val 271072857 ecr 3510083729], length 0
+12:44:55.335916 IP 10.12.5.11.57727 > 10.12.19.23.80: Flags [.], ack 33957, win 4096, options [nop,nop,TS val 271072858 ecr 3510083729], length 0
+12:44:55.337240 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 5476, win 4005, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337266 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 8372, win 3915, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337291 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 11268, win 3824, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337299 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 14164, win 3734, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337301 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 17060, win 3643, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337408 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 19956, win 3553, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337415 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 22852, win 3462, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337418 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 25748, win 3372, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337419 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 28644, win 3281, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337421 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 31540, win 3191, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337422 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 33071, win 3143, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.337563 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 33071, win 4096, options [nop,nop,TS val 271072859 ecr 3510083731], length 0
+12:44:55.339584 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [P.], seq 855:1250, ack 33071, win 4096, options [nop,nop,TS val 271072861 ecr 3510083731], length 395: HTTP: GET /images/bg-01.jpg HTTP/1.1
+12:44:55.340272 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 33253, win 4090, options [nop,nop,TS val 271072861 ecr 3510083734], length 0
+12:44:55.387223 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [P.], seq 1250:1682, ack 33253, win 4096, options [nop,nop,TS val 271072907 ecr 3510083734], length 432: HTTP: GET /images/icons/favicon.ico HTTP/1.1
+12:44:55.387578 IP 10.12.5.11.57731 > 10.12.19.23.80: Flags [.], ack 33434, win 4090, options [nop,nop,TS val 271072907 ecr 3510083781], length 0

@@ -1,0 +1,8 @@
+
+Nap -T5 -n 454545
+The -T5 is for the speed template, these templates are what tells nmap how quickly to perform the scan. 
+
+-n to your command to avoid doing reverse-DNS lookups 
+
+Nmap -T5 -n - -top-ports 1000 192….
+

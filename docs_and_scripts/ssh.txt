@@ -1,0 +1,12 @@
+Desktop cd
+
+ cd .ssh
+
+ rm -fr *
+
+ ssh-keygen
+
+ ssh-copy-id ayoub@10.12.19.23 -p 1992
+
+
+Ss-keygen -t rsa

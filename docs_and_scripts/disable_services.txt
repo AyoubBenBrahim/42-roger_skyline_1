@@ -1,0 +1,18 @@
+ufw
+***
+
+snapd service:
+*************
+which provides access to containerized application snaps.
+
+sudo systemctl mask snapd.service
+
+accounts-daemon.service
+***********************
+ is a potential security risk. It is part of AccountsService, 
+which allows programs to get and manipulate user account information. I can't think of a good reason 
+to allow this kind of behind-my-back operations, so I mask it.
+
+dbus.service
+************
+D-BUS is an IPC (inter-process communication) mechanism that helps applications communicate with each other. D-Bus  (Desktop  Bus) 

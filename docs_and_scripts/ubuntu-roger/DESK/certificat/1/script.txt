@@ -1,0 +1,18 @@
+openssl genrsa -des3 1024 > ac.key
+openssl req -new -x509 -days 365 -key ac.key > ac.crt
+openssl genrsa 1024 > ayoub.key
+openssl req -new -key ayoub.key > ayoub.csr
+openssl x509 -req -in ayoub.csr -out ayoub.crt -CA ac.crt -CAkey ac.key -CAcreateserial -CAserial ac.srl
+cp ayoub.crt ayoub.key /etc/ssl/private/
+
+==
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/ayoub.com.key -out /etc/ssl/private/ayoub.com.crt
+==
+
+
+
+
+
+
+a2enmod ssl
+systemctl restart apache2

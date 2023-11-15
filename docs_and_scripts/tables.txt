@@ -1,0 +1,53 @@
+The -P flag stands for policy, in this command we are setting the default policy of the INPUT chain to the target DROP.
+
+# Flush the input and output tables.
+iptables -F INPUT or  iptables -t filter -F input
+iptables -F OUTPUT
+ 
+# Set the default policies to allow no input
+iptables -t filter -P INPUT DROP
+ 
+# Allow all local traffic 
+iptables -t filter -A INPUT -i lo -j ACCEPT
+iptables -t filter -A OUTPUT -o lo -j ACCEPT
+
+# allow ping
+iptables -t filter -A INPUT -i eth0 -p icmp - -icmp-type echo-request -j ACCEPT
+iptables -t filter -A OUTPUT -o eth0 -p icmp — -icmp-type echo-reply -j ACCEPT
+
+# Allow Established and Related Incoming Connections
+# As network traffic generally needs to be two-way—incoming and outgoing—to work properly
+iptables -t filter -A INPUT -m state - -state RELATED,ESTABLISHED -j ACCEPT
+
+# allow some incoming ports for services that should be public available
+iptables -t filter -A INPUT -p tcp -m multiport - -dport 22,80,443 -j ACCEPT
+
+The second command, which allows the outgoing traffic of established HTTP and HTTPS
+ connections, is only necessary if the OUTPUT policy is not set to ACCEPT.
+
+
+
+
+DNS
+ # iptables -A INPUT -p tcp --dport 53 -j ACCEPT
+ # iptables -A INPUT -p udp --dport 53 -j ACCEPT
+
+
+*********
+
+iptables -t filter -A INPUT -p tcp -m tcp - -dport 22 -j ACCEPT
+
+iptables -t filter -A INPUT -p tcp -m tcp - -dport 80 -j ACCEPT
+#iptables -t filter -A OUTPUT -p tcp -m tcp - -sport 80 -j ACCEPT
+
+iptables -t filter -A INPUT -p tcp -m multiport --dport 80,443 -j ACCEPT
+
+# Allow ssh from public network
+iptables -t filter -A INPUT -p tcp --dport 22 -j ACCEPT
+iptables -t filter -A OUTPUT -p tcp --sport 22 -j ACCEPT
+
+# Allow ssh
+iptables -A INPUT -p tcp -m tcp --dport 22 -j ACCEPT
+iptables -A OUTPUT -p tcp --sport 22 -m state --state ESTABLISHED -j ACCEPT
+
+

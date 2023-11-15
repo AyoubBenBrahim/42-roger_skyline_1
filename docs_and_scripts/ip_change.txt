@@ -1,0 +1,5 @@
+
+sudo vim /etc/netplan/50...
+sudo netplan apply
+reboot
+
